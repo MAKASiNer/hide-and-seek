@@ -1,0 +1,9 @@
+from .common import GameApp
+
+
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 600
+
+SERVER_TICKRATE = 45
+
+game = GameApp(SCREEN_WIDTH, SCREEN_HEIGHT)
